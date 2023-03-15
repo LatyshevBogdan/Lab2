@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 int main(){
-cout<<"Hellow Wordl";
+char[50] name="Bogdan";
+cout<<"Hellow Wordl"<<name;
 return 0;
 }
