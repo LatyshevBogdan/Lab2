@@ -100,7 +100,7 @@ nano sources/HelloWorld.cpp
 6. Для этого локально выполните **pull** + **rebase** (точную последовательность команд, следует узнать самостоятельно). **Исправьте конфликты**.
 
 `git pull`
-`nano edit sources/hello_world.cpp`
+`nano sources/hello_world.cpp`
 `git add .`
 `git commit -m "внесение исправлений в конфликтующий файл"`
 `git rebase main`
@@ -115,7 +115,7 @@ nano sources/HelloWorld.cpp
 `git push -f origin patch2`
 
 8. Убедитеcь, что в pull-request пропали конфликтны. 
-9. Вмержите pull-request `patch2 -> master`.
+9. Вмержите pull-request `patch2 -> main`.
 
 `git switch main`
 `git merge patch2`
